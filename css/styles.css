@@ -1,5 +1,7 @@
 body {
-background-image: url('capture.jpg');
+    padding: margin;
+    background: black;
+background-image: url('capture.png');
 background-size: 100%;
 background-repeat: no-repeat;
 }

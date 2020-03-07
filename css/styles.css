@@ -1,7 +1,204 @@
+
 body {
-    padding: margin;
-    background: black;
-background-image: url('capture.png');
-background-size: 100%;
-background-repeat: no-repeat;
+    font: arial, helvetical, sans-seriff;
+}
+div#container {
+    width: 1050px;
+    /* border: 1px solid grey; */
+    margin: 0 auto /* This css property gives a margin of 0 for both top & bottom, auto for left and right */
+}
+
+div#header {
+height: 100px;  
+padding: 10px 0;
+}
+
+div#brand {
+    float: left;
+}
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: 861BFF;
+    text-decoration: none;
+}
+div#searchbox {
+float: right;
+background: linear-gradient(#E4F2B9, #B7E953);
+background: -moz-linear-gradient(#E4F2B9, #B7E953);
+background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+background: -ms-linear-gradient(#E4F2B9, #B7E953);
+background: -o-linear-gradient(#E4F2B9, #B7E953);
+width:  400px;
+height: 50px;
+padding: 20px 20px 0px 20px;
+margin-top: 20px;
+}
+
+.text {
+float: left;
+width: 200px;
+padding: 5px;
+font-size: 15px;
+color: #E36A0C;
+background: white url('images/search.png') no-repeat right center;
+border: 1px solid #C8D03E;
+}
+
+.clear {
+    clear: both;
+}
+
+.submit {
+float: right;
+padding: 5px;
+font-weight: bold;
+color: white;
+background: #A751D6;
+cursor: pointer;
+
+}
+
+#menu {
+height: 70px;
+background: linear-gradient(#F8F594, #D5D533);
+background: -webkit-linear-gradient(#F8F594, #D5D533);
+background: -moz-linear-gradient(#F8F594, #D5D533);
+background: -ms-linear-gradient(#F8F594, #D5D533);
+background: -o-linear-gradient(#F8F594, #D5D533);
+padding: 7px 0; 
+}
+
+#menu ul {
+list-style: none
+
+}
+#menu ul li {
+float: left;
+padding: 0 30px;
+height: 30px;
+border-right: 1px solid #5D12E7;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: normal;
+    color: #5D12E7;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+#menu ul li:last-of-type {
+    border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+   font-size: 20px;
+   font-weight: bold;
+   color: #B314BD
+}
+
+
+div#introduction {
+background: linear-gradient(#E5F2BB, #B7E952);
+background: -moz-linear-gradient(#E5F2BB, #B7E952);
+background: -ms-linear-gradient(#E5F2BB, #B7E952);
+background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+background: -o-linear-gradient(#E5F2BB, #B7E952);
+padding: 30px;
+margin: 16px 0;
+}
+
+div#introduction h3 {
+    font-size: 40px;
+    color: #316901
+}
+
+div#introduction p {
+    text-align: justify;
+   font-size: 25px;
+   color: #789450;
+}
+.sidebar {
+    height: 540px;
+    width: 450px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#leftsidebar {
+    float: left;
+}
+#rightsidebar  {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+.sidebar h3 {
+   color: #B314BD;
+   font-size: 30px;
+}
+
+.sidebar ul li {
+ list-style: none;
+}
+
+.sidebar ul li a {
+ text-decoration: none;
+ font-size: 20px;
+ color: #5D12E7;
+ cursor: pointer;
+ transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+
+.sidebar ul li a:hover, 
+.sidebar ul li a.active {
+    text-decoration: none;
+    color: #B314BD;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftsidebar ul li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow.png);
+}
+
+#rightsidebar ul li {
+    padding-bottom: 8px;
+    padding-top: 15px;
+    padding-left: 70px;
+    list-style-image: url(images/tick.png);
+   }
+
+.sidebar ul  {
+    padding-top: 10px;
+}
+
+.footer {
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+     background: -webkit-linear-gradient(#F6F390, #D5D533);
+      background: -moz-linear-gradient(#F6F390, #D5D533);
+       background: -ms-linear-gradient(#F6F390, #D5D533);
+        background: -o-linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+footer div p {
+    text-align: center;
+    font-weight: bold;
 }
